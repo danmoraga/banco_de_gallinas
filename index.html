@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de gallinas</title>
+    <link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/x-icon">
+</head>
+<body>
+  <!--
+    Chicken number
+    Button for adding
+    Button for minus
+  -->
+  <h1>banco de gallinas</h1>
+  <p>
+    Chicken number:
+    <span id="pollos">0</span>
+  </p>
+  <input type="number" name="agregarCantidad" id="agregarRestarCantidad">
+  <button
+    type="button"
+    id="buttonPlus"
+    onclick="addChicken()"
+  >
+    Plus
+  </button>
+  <button
+    type="button"
+    id="buttonMinus"
+    onclick="restChicken()"
+  >
+    Minus
+  </button>
+  <script src="./index.js"></script>
+</body>
+</html>
